@@ -19,7 +19,7 @@ type Person struct {
 const (
 	host     = "localhost"
 	port     = 5432
-	user     = "postgres"
+	user     = "posttestgres"
 	password = "sagarhello"
 	dbname   = "GO"
 )
