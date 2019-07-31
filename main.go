@@ -20,7 +20,7 @@ const (
 	host     = "localhost"
 	port     = 5432
 	user     = "posttestgrsses"
-	password = "sagarhello"
+	password = "sagarhellosas"
 	dbname   = "GO"
 )
 
