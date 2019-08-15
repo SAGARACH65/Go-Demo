@@ -30,7 +30,7 @@ func GetUser(c *gin.Context) {
 	person := []Person{}
 	// fmt.Println(rows)
 
-	//sql.ErNoRows()
+	sql.ErNoRows()
 	for rows.Next() {
 		var p Person
 		if err := rows.Scan(&p.ID, &p.FirstName, &p.LastName, &p.MiddleName, &p.Age, &p.EmailAddress, &p.MaritalStatus); err != nil {
